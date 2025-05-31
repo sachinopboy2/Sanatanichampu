@@ -478,8 +478,8 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="[ ɪɴsᴛᴀ ]", url=f"https://www.instagram.com/shivanshu_deo/"),
-            InlineKeyboardButton(text="[ ʏᴏᴜᴛᴜʙᴇ ]", url=f"https://www.youtube.com/@itsMeChampu"),
+            InlineKeyboardButton(text="[ ʙʀᴏᴛʜᴇʀ ]", url=f"https://t.me/smartness_to_hai"),
+            InlineKeyboardButton(text="[ ᴄʜᴀɴɴᴇʟ ]", url=f"https://t.me/MUSIC_BOT_UPDATE"),
         ],
         [
             InlineKeyboardButton(text="● ʙᴀᴄᴋ ●", callback_data="about")
