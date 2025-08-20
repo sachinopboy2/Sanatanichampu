@@ -35,6 +35,11 @@ EXTRA_PLUGINS = getenv(
     True,
 )
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots267382') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+
+
 # Fill True if you want to load extra plugins
 # Fill here the external plugins repo where plugins that you want to load
 EXTRA_PLUGINS_REPO = getenv(
